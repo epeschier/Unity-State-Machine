@@ -16,7 +16,7 @@ Try to keep functionality in the object to which the state applies.
 
 The FSM consists of the following files:
 - **StateMachine.cs**; The base class for the state machine. Derive your actual state machine from this class.
-- **State.cs**: The base class for the state. Derice your actual state implementation from this class.
+- **State.cs**: The base class for the state. Derive your actual state implementation from this class.
 - **IState.cs**; this is the interface for the state (internal use).
 - **IStateMachine.cs**; this is the interface for the StateMachine (internal use).
 
